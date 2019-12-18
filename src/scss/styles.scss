@@ -11,12 +11,11 @@
 }
 
 body {
-  background-image: url("/assets/Artboard\ 1.png");
+  background-image: url("../assets/bgmobile.png");
   background-size: 100%;
-  background-repeat: no-repeat;
 
   @include large {
-    background-image: url(/assets/313862.jpg);
+    background-image: url("../assets/bgdesktop.jpg");
     background-size: 125%;
   }
 }
@@ -53,7 +52,6 @@ main {
   .teaser__title {
     font-weight: bold;
     font-size: 35px;
-    filter: drop-shadow(5px 8px 5px black);
     margin-bottom: 10vh;
     text-align: left;
 
